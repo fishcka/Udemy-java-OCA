@@ -6,3 +6,8 @@ public class IsBlankCheck {
         System.out.println(s1.isBlank());
     }
 }
+
+
+/*
+output:
+        false  */
