@@ -22,7 +22,8 @@ public class UpdatedArray {
     }
 
     public static void main(String[] args) {
-        args = new String[]{"1", "5", "9", "e2", "c3"};
+        args = new String[]{"1", "5", "9", "e2", "c3"}; //перед запуском в Command Line цей рядок треба закоментити
+        //і передати його значення в командному рядку, як описано в README.txt
         String[] arg1 = {"a1", "b2", "c3"};
         String[] arg2 = {"d1", "e2", "f3", "g4", "h5"};
         String[] compare = arrayUpdating(arg1, arg2);
